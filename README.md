@@ -2,7 +2,7 @@
 
 ## Usage
 
-###1. Configure.
+### 1. Configure.
    Edit `config.conf` to config load balance strategies.Values will be configured to `bitloop.conf`. 
    The configure map is:
     |config.conf|bitloop.conf|
@@ -13,9 +13,9 @@
   `SSL`,determine if use ssl when accessing to API.
 
 
-###2. Docker build.
+### 2. Docker build.
    `$docker build -t bitloop-nginx .`
-###3. Docker run.
+### 3. Docker run.
    if use http:
    `$docker run -v $PWD/logs:/var/log/nginx/bitloop bitloop-nginx` 
    if use https:
