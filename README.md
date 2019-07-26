@@ -1,4 +1,4 @@
-# bitloop-client-api-load-balancer
+# client-api-load-balancer
 
 ## Usage
 
